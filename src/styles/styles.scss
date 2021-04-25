@@ -1,0 +1,69 @@
+@import "./general/_links.scss";
+@import "./general/_button.scss";
+
+@import "_navigation.scss";
+@import "_banner.scss";
+@import "_sidebar.scss";
+@import "_about.scss";
+@import "_service-page";
+@import "_services";
+@import "_contact";
+@import "_footer";
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-align: center;
+  --primary-color: #8b0000;
+  --secondary-color: #202020;
+  --blue-color: #121b4b;
+  --white-color: #fefefe;
+  --gray-color: #cecece;
+}
+section{
+  padding: 100px;
+}
+h2 {
+  font-size: 3em;
+  color: white;
+}
+
+p {
+  color: white;
+  font-size: 16px;
+}
+
+.line {
+  width: 100%;
+  height: 6px;
+  background: black;
+}
+
+img {
+  max-width: 50vw;
+}
+
+.column img {
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+//   .app-wrapper {
+//     width: 100%;
+//     margin: 0;
+//     min-height: 100vh;
+//     padding: 0;
+
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+//     font-family: var(--main-font);
+//     font-size: var(--base-font-size);
+
+//     background-color: var(--grey-200);
+//   }

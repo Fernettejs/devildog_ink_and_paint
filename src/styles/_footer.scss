@@ -1,0 +1,17 @@
+.footer {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../assets/images/American-flag-2a.png);
+  background-size: cover;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  background: #000;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  height: 40px;
+}

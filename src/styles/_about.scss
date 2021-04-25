@@ -1,0 +1,119 @@
+.about {
+  background: var(--secondary-color);
+}
+.about .img {
+  border: 3px solid white;
+  border-radius: 5px;
+}
+.heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
+  text-decoration: none;
+  border: 3px solid white;
+  border-radius: 5px;
+}
+.heading h2 {
+  font-weight: 600;
+  font-size: 30px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+.contentBox {
+  padding: 30px;
+  display: inline;
+  background: var(--blue-color);
+  border: 3px solid white;
+  border-radius: 5px;
+}
+.contentBox h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.w50 {
+  min-width: 40%;
+  display: inline;
+}
+img {
+  max-width: 100%;
+}
+#the-artist {
+  font-size: 1.2em;
+}
+
+/*  */
+/* SOCIAL MEDIA */
+/*  */
+
+.social .content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: var(--secondary-color);
+  margin-top: -50px;
+  border: 3px solid white;
+  border-radius: 5px;
+  padding: 20px;
+}
+.social-box {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  background-color: var(--secondary-color);
+  display: block;
+}
+.social-box:hover {
+  transition: 0.2s ease-in-out;
+  height: 120px;
+  width: 120px;
+  border-radius: 100px;
+  background-color: var(--primary-color);
+  display: block;
+}
+
+.social img {
+  filter: invert(100%);
+  height: 100px;
+  width: 100px;
+}
+
+@media (max-width: 991px) {
+  section {
+    padding: 100px 50px;
+  }
+  .heading h2 {
+    font-weight: 600;
+    font-size: 24px;
+  }
+  .contentBox h3 {
+    font-size: 20px;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .w50 {
+    margin-bottom: 20px;
+  }
+  .social-box {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+@media (max-width: 600px) {
+  header,
+  header.sticky {
+    padding: 20px 20px;
+    z-index: 1000;
+  }
+  .banner {
+    padding: 150px 20px 100px;
+  }
+  section {
+    padding: 100px 20px;
+  }
+}

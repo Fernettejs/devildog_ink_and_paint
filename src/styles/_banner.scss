@@ -1,0 +1,44 @@
+.banner {
+  position: relative;
+  min-height: 100vh;
+  background: 
+    /* top, transparent red, faked with gradient */ linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../assets/images/banner.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-bottom: 3px solid white;
+}
+
+
+.text-box {
+  align-items: center;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 4em;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1.2em;
+  text-shadow: 2px 2px 2px #000;
+  padding-top: 100px;
+}
+
+.banner h4 {
+  font-size: 1.2em;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.banner-btn {
+  margin-top: 40px;
+  padding: 20px 50px;
+}

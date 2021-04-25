@@ -1,0 +1,79 @@
+.sidebar {
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, 0.7)), url(../assets/images/American-flag-2a.png);
+  background-size: cover;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  display: none;
+}
+@media (max-width: 991px) {
+  .sidebar {
+    display: flex;
+  }
+}
+
+.nav-icon {
+  margin-left: 2rem;
+  font-size: 2rem;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+}
+
+.sidebar-nav {
+  background: black;
+  width: 250px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  transition: 350ms;
+  z-index: 10;
+}
+
+.sidebar-wrap {
+  width: 100%;
+}
+
+.sidebar-link {
+  display: flex;
+  color: #e1e9fc;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  list-style: none;
+  height: 60px;
+  text-decoration: none;
+  font-size: 18px;
+  &:hover {
+    background: #252831;
+    border-left: 4px solid var(--primary-color);
+    cursor: pointer;
+  }
+}
+.sidebar-label {
+  margin-left: 16px;
+}
+
+.dropdown-link {
+  background: #414757;
+  height: 60px;
+  padding-left: 3rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #f5f5f5;
+  font-size: 18px;
+  &:hover {
+    background: var(--primary-color);
+    cursor: pointer;
+  }
+}
+.icon {
+  height: 26px;
+  filter: invert(1);
+}
