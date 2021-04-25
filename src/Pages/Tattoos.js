@@ -116,119 +116,119 @@ const Tattoos = (props) => {
           <div className="gallery-container">
             <div className="gallery-item">
               <div className="image">
-                <img src={graves} alt="graves" />
+                <img loading="lazy" src={graves} alt="graves" />
               </div>
             </div>
           </div>
           <div className="gallery-container">
             <div className="gallery-item">
               <div className="image">
-                <img src={gunners} alt="gunners" />
+                <img loading="lazy" src={gunners} alt="gunners" />
               </div>
             </div>
           </div>
           <div className="gallery-container w-2">
             <div className="gallery-item">
               <div className="image">
-                <img src={inside_arm} alt="inside_arm" />
+                <img loading="lazy" src={inside_arm} alt="inside_arm" />
               </div>
             </div>
           </div>
           <div className="gallery-container">
             <div className="gallery-item">
               <div className="image">
-                <img src={iwo_jima} alt="iwo_jima" />
+                <img loading="lazy" src={iwo_jima} alt="iwo_jima" />
               </div>
             </div>
           </div>
           <div className="gallery-container">
             <div className="gallery-item">
               <div className="image">
-                <img src={jiu_jitsu} alt="jiu_jitsu" />
+                <img loading="lazy" src={jiu_jitsu} alt="jiu_jitsu" />
               </div>
             </div>
           </div>
           <div className="gallery-container">
             <div className="gallery-item">
               <div className="image">
-                <img src={knight} alt="knight" />
+                <img loading="lazy" src={knight} alt="knight" />
               </div>
             </div>
           </div>
           <div className="gallery-container">
             <div className="gallery-item">
               <div className="image">
-                <img src={lipstick} alt="lipstick" />
+                <img loading="lazy" src={lipstick} alt="lipstick" />
               </div>
             </div>
           </div>
           <div className="gallery-container w-2">
             <div className="gallery-item">
               <div className="image">
-                <img src={m4} alt="m4" />
+                <img loading="lazy" src={m4} alt="m4" />
               </div>
             </div>
           </div>
           <div className="gallery-container">
             <div className="gallery-item">
               <div className="image">
-                <img src={map} alt="map" />
+                <img loading="lazy" src={map} alt="map" />
               </div>
             </div>
           </div>
           <div className="gallery-container">
             <div className="gallery-item">
               <div className="image">
-                <img src={mask} alt="mask" />
+                <img loading="lazy" src={mask} alt="mask" />
               </div>
             </div>
           </div>
           <div className="gallery-container">
             <div className="gallery-item">
               <div className="image">
-                <img src={mom} alt="mom" />
+                <img loading="lazy" src={mom} alt="mom" />
               </div>
             </div>
           </div>
           <div className="gallery-container">
             <div className="gallery-item">
               <div className="image">
-                <img src={rifle} alt="rifle" />
+                <img loading="lazy" src={rifle} alt="rifle" />
               </div>
             </div>
           </div>
           <div className="gallery-container h-2">
             <div className="gallery-item">
               <div className="image">
-                <img src={samurai} alt="samurai" />
+                <img loading="lazy" src={samurai} alt="samurai" />
               </div>
             </div>
           </div>
           <div className="gallery-container">
             <div className="gallery-item">
               <div className="image">
-                <img src={scroll} alt="scroll" />
+                <img loading="lazy" src={scroll} alt="scroll" />
               </div>
             </div>
           </div>
           <div className="gallery-container">
             <div className="gallery-item">
               <div className="image">
-                <img src={star} alt="star" />
+                <img loading="lazy" src={star} alt="star" />
               </div>
             </div>
           </div>
           <div className="gallery-container">
             <div className="gallery-item">
               <div className="image">
-                <img src={temple} alt="canoe" />
+                <img loading="lazy" src={temple} alt="canoe" />
               </div>
             </div>
           </div>
           <div className="gallery-container">
             <div className="gallery-item">
               <div className="image">
-                <img src={tree} alt="canoe" />
+                <img loading="lazy" src={tree} alt="canoe" />
               </div>
             </div>
           </div>
