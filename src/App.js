@@ -6,6 +6,8 @@ import Airbrush from "./Pages/Airbrush";
 import Canvas from "./Pages/Canvas";
 import Murals from "./Pages/Murals";
 import Tattoos from "./Pages/Tattoos";
+import Shop from "./Pages/Shop";
+
 
 
 function App() { 
@@ -18,6 +20,7 @@ function App() {
       <Route path="/canvas" exact component={Canvas} />
       <Route path="/murals" exact component={Murals} />
       <Route path="/tattoos" exact component={Tattoos} />
+      <Route path="/shop" exact component={Tattoos} />
     </Router>
   );
 }

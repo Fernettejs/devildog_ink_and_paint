@@ -1,5 +1,7 @@
 import React from "react";
 import Navigation from "../Components/Navigation";
+import Sidebar from "../Components/Sidebar";
+
 import artist from "../assets/images/the-artist.png";
 import ig from "../assets/images/ig-icon.png";
 import youtube from "../assets/images/youtube-icon.png";
@@ -8,13 +10,14 @@ const About = () => {
   return (
     <div>
       <Navigation />
-      <section class="about" id="about">
-        <div class="content">
-          <div class="w50">
-            <img src={artist} class="img" alt="" />
+      <Sidebar />
+      <section className="about" id="about">
+        <div className="content">
+          <div className="w50">
+            <img src={artist} className="img" alt="" />
           </div>
-          <div class="contentBox">
-            <div class="heading">
+          <div className="contentBox">
+            <div className="heading">
               <h2>The Artist</h2>
             </div>
             <p id="the-artist">
@@ -41,9 +44,9 @@ const About = () => {
             </p>
           </div>
         </div>
-        <section class="social" id="social">
-          <div class="content">
-            <div class="social-box" id="youtube-box">
+        <section className="social" id="social">
+          <div className="content">
+            <div className="social-box" id="youtube-box">
               <a
                 href="https://www.youtube.com/channel/UCsp7n4jSu-uMAbMqL-QHJ9A"
                 target="_blank"
@@ -52,7 +55,7 @@ const About = () => {
                 <img src={youtube} alt="" />
               </a>
             </div>
-            <div class="social-box" id="ig-box">
+            <div className="social-box" id="ig-box">
               <a
                 href="https://www.instagram.com/devildog_inkandpaintllc/"
                 target="_blank"

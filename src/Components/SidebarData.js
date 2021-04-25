@@ -16,39 +16,39 @@ export const SidebarData = [
     path: "/about",
     icon: <FaIcons.FaCartPlus />,
   },
-  {
-    title: "Services",
-    path: "",
-    icon: <FaIcons.FaConciergeBell />,
-    iconClosed: <RiIcons.RiArrowDownSFill />,
-    iconOpened: <RiIcons.RiArrowUpSFill />,
+  // {
+  //   title: "Services",
+  //   // path: " ",
+  //   icon: <FaIcons.FaConciergeBell />,
+  //   iconClosed: <RiIcons.RiArrowDownSFill />,
+  //   iconOpened: <RiIcons.RiArrowUpSFill />,
 
-    subNav: [
+  //   subNav: [
       {
         title: "Tattoos",
         path: "/tattoos",
-        icon: <img class="icon" src={tattoo} alt="tattoo gun"/>,
+        icon: <img className="icon" src={tattoo} alt="tattoo gun"/>,
       },
       {
         title: "Airbrush",
-        path: "/services/airbrush",
-        icon: <img class="icon" src={airbrush} alt="airbrush"/>,
+        path: "/airbrush",
+        icon: <img className="icon" src={airbrush} alt="airbrush"/>,
       },
       {
         title: "Murals",
-        path: "/services/murals",
+        path: "/murals",
         icon: <FaIcons.FaPaintBrush />,
       },
       {
         title: "Canvas",
-        path: "/services/canvas",
+        path: "/canvas",
         icon: <FaIcons.FaBrush />,
       },
-    ],
-  },
+  //   ],
+  // },
   {
-    title: "Products",
-    path: "/products",
+    title: "Shop",
+    path: "/shop",
     icon: <FaIcons.FaCartPlus />,
   },
 ];

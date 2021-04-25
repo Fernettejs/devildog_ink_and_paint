@@ -26,14 +26,15 @@
   list-style: none;
 }
 .topnav-left {
-  left: 100px;
+  left: 50px;
 }
 .topnav-right {
-  right: 100px;
+  right: 50px;
 }
 .nav-btn {
-  top: -10px;
-  padding: 12px 30px;
+  margin: -10px;
+  padding: 12px 50px;
+  margin-right: 20px;
   &:hover {
     transform: scale(1.1);
   }
@@ -57,7 +58,6 @@
   border-radius: 10px;
 }
 
-
 /* Add a color to the active/current link */
 /* .topnav a.active {
   background: var(--primary-color);
@@ -78,28 +78,28 @@
     background: none !important;
   }
 }
-#navlink {
-margin-top: -12px ;
-}
+// #navlink {
+//   margin-top: -12px;
+// }
 /* The navigation menu */
 /* Navigation links */
 
 /* The subnavigation menu */
-.subnav {
-  position: relative;
-  display: flex;
-}
+// .subnav {
+//   position: relative;
+//   display: flex;
+// }
 
 /* Subnav button */
-.subnav .subnavbtn {
-  border: none;
-  outline: none;
-  color: white;
-  margin: 0 20px;
-  background-color: inherit;
-  font-family: inherit;
-  display: block;
-}
+// .subnav .subnavbtn {
+//   border: none;
+//   outline: none;
+//   color: white;
+//   margin: 0 20px;
+//   background-color: inherit;
+//   font-family: inherit;
+//   display: block;
+// }
 
 /* Add a red background color to navigation links on hover */
 .header a:hover,
@@ -138,9 +138,9 @@ margin-top: -12px ;
   display: block;
   z-index: 999;
 }
-.subnavbtn {
-  font-size: 22px;
-}
+// .subnavbtn {
+//   font-size: 22px;
+// }
 .subnav:hover a {
   font-size: 18px;
   z-index: 999;
@@ -156,6 +156,19 @@ ul.sidebar-panel-nav > li > a {
   display: block;
   padding-bottom: 0.5em;
 }
+#shop-link {
+  margin-top: -10px;
+}
+.mobile-cart {
+  border-radius: 10px;
+  margin-top: -10px !important;
+  height: 54px;
+  cursor: pointer;
+}
+.mobile-cart svg {
+  filter: invert(1);
+}
+
 
 /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
 

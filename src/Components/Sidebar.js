@@ -16,12 +16,12 @@ const Sidebar = () => {
 
   return (
     <div className="sidebar">
-      <Link className="nav-icon" to="#">
+      <Link className="nav-icon" to="">
         <FaIcons.FaBars onClick={showSidebar} />
       </Link>
       <SideBarNav className="sidebar-nav" sidebar={sidebar}>
         <div className="sidebar-wrap">
-          <Link className="nav-icon" to="#">
+          <Link className="nav-icon" to="">
             <AiIcons.AiOutlineClose onClick={showSidebar} />
           </Link>
           {SidebarData.map((item, index) => {

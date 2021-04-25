@@ -5,7 +5,12 @@
 }
 .contact {
   background: var(--blue-color);
-  height: 40vw;
+  min-height: 40vw;
+}
+.box {
+  margin: 30px 0;
+  display: flex;
+  
 }
 .formBox {
   min-width: 60%;
