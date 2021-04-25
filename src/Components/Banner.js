@@ -1,6 +1,12 @@
 import React from "react";
+import { TimelineLite } from 'gsap'
+
 
 const Banner = () => {
+  // const { btn } = this.$refs
+  //   const timeline = new TimelineLite() 
+    
+    // timeline.from(btn, {duration: 2, x: '-500%', ease: 'bounce', delay: 2})
   return (
     <section className="banner center" id="home">
       <div className="banner-text">

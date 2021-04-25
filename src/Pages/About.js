@@ -1,6 +1,8 @@
 import React from "react";
 import Navigation from "../Components/Navigation";
 import Sidebar from "../Components/Sidebar";
+import { Link } from "react-router-dom";
+import * as FaIcons from "react-icons/fa";
 
 import artist from "../assets/images/the-artist.png";
 import ig from "../assets/images/ig-icon.png";
@@ -64,6 +66,14 @@ const About = () => {
                 <img src={ig} alt="" />
               </a>
             </div>
+            <div className="social-box">
+                  <Link
+                    className="social-icon"
+                    to="https://www.youtube.com/channel/UCsp7n4jSu-uMAbMqL-QHJ9A"
+                  >
+                    <FaIcons.FaFacebook/>
+                  </Link>
+                </div>
           </div>
         </section>
       </section>

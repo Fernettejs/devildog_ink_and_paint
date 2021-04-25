@@ -68,8 +68,8 @@ img {
 }
 .social-box:hover {
   transition: 0.2s ease-in-out;
-  height: 120px;
-  width: 120px;
+  height: 100px;
+  width: 100px;
   border-radius: 100px;
   background-color: var(--primary-color);
   display: block;
@@ -81,6 +81,9 @@ img {
   width: 100px;
 }
 
+.social-icon {
+  font-size: 100px;
+}
 @media (max-width: 991px) {
   section {
     padding: 100px 50px;

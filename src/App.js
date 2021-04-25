@@ -20,7 +20,7 @@ function App() {
       <Route path="/canvas" exact component={Canvas} />
       <Route path="/murals" exact component={Murals} />
       <Route path="/tattoos" exact component={Tattoos} />
-      <Route path="/shop" exact component={Tattoos} />
+      <Route path="/shop" exact component={Shop} />
     </Router>
   );
 }
