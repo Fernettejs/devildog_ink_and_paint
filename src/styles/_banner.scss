@@ -16,7 +16,6 @@
   border-bottom: 3px solid white;
 }
 
-
 .text-box {
   align-items: center;
   text-align: center;
@@ -41,4 +40,11 @@
 .banner-btn {
   margin-top: 40px;
   padding: 20px 50px;
+}
+
+@media (max-width: 991px) {
+  .banner {
+    background-size: cover;
+    background-attachment: local;
+    background-position: bottom;  }
 }

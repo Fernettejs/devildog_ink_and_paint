@@ -16,7 +16,7 @@ const Canvas = () => {
       </div>
       <div className="container">
         {/* <Photo img={bergerFront}/> */}
-        <div className="gallery-container w-4 h-4">
+        <div className="gallery-container w-2 h-3">
           <div className="gallery-item">
             <div className="image">
               <img src={ied} alt="canoe" />

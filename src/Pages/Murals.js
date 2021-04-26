@@ -19,21 +19,21 @@ const Murals = () => {
       </div>
       <div className="container">
         {/* <Photo img={bergerFront}/> */}
-        <div className="gallery-container w-4 h-1">
+        <div className="gallery-container w-3 h-1">
           <div className="gallery-item">
             <div className="image">
               <img src={afghan} alt="canoe" />
             </div>
           </div>
         </div>
-        <div className="gallery-container w-4 h-1">
+        <div className="gallery-container w-3 h-1">
           <div className="gallery-item">
             <div className="image">
               <img src={nam} alt="canoe" />
             </div>
           </div>
         </div>
-        <div className="gallery-container w-4 h-1">
+        <div className="gallery-container w-3 h-1">
           <div className="gallery-item">
             <div className="image">
               <img src={ww1} alt="canoe" />
