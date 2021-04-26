@@ -1,12 +1,9 @@
 import React from "react";
 import Navigation from "../Components/Navigation";
 import Sidebar from "../Components/Sidebar";
-import { Link } from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
 
 import artist from "../assets/images/the-artist.jpg";
-import ig from "../assets/images/ig-icon.jpg";
-import youtube from "../assets/images/youtube-icon.jpg";
 
 const About = () => {
   return (
@@ -46,36 +43,40 @@ const About = () => {
             </p>
           </div>
         </div>
-        <section className="social" id="social">
+        <div className="social" id="social">
           <div className="content">
-            <div className="social-box" id="youtube-box">
+            <div className="social-box">
               <a
+                className="social-icon"
                 href="https://www.youtube.com/channel/UCsp7n4jSu-uMAbMqL-QHJ9A"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={youtube} alt="" />
+                <FaIcons.FaYoutubeSquare />
               </a>
             </div>
-            <div className="social-box" id="ig-box">
+            <div className="social-box">
               <a
+                className="social-icon"
                 href="https://www.instagram.com/devildog_inkandpaintllc/"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src={ig} alt="" />
+                <FaIcons.FaInstagramSquare />
               </a>
             </div>
             <div className="social-box">
-                  <Link
-                    className="social-icon"
-                    to="https://www.youtube.com/channel/UCsp7n4jSu-uMAbMqL-QHJ9A"
-                  >
-                    <FaIcons.FaFacebook/>
-                  </Link>
-                </div>
+              <a
+                className="social-icon"
+                href="https://www.facebook.com/DevildogInkandPaint"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaIcons.FaFacebookSquare />
+              </a>
+            </div>
           </div>
-        </section>
+        </div>
       </section>
     </div>
   );

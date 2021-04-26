@@ -16,7 +16,7 @@ const Sidebar = () => {
 
   return (
     <div className="sidebar">
-      <Link className="nav-icon" to="">
+      <Link className="nav-icon" >
         <FaIcons.FaBars onClick={showSidebar} />
       </Link>
       <SideBarNav className="sidebar-nav" sidebar={sidebar}>

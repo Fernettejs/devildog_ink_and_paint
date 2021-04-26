@@ -190,7 +190,7 @@ const Tattoos = (props) => {
               </div>
             </div>
           </div>
-          <div className="gallery-container">
+          <div className="gallery-container h-2">
             <div className="gallery-item">
               <div className="image">
                 <img loading="lazy" src={rifle} alt="rifle" />
