@@ -7,6 +7,33 @@ import ied from "../assets/images/canvas/ied.jpg";
 
 
 const Services = () => {
+
+  const faders = document.querySelectorAll(".fade-in");
+  const appearOptions = {
+    threshold: 1,
+    rootMargin: "0px 0px -100px 0px", 
+  };
+
+  const appearOnScroll = new IntersectionObserver(function (
+    entries,
+    appearOnScroll
+  ) {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) {
+        return;
+      } else {
+        entry.target.classList.add("appear");
+        appearOnScroll.unobserve(entry.target);
+      }
+    });
+  },
+
+  appearOptions);
+
+  faders.forEach(fader => {
+    appearOnScroll.observe(fader);
+  });
+
   return (
     <section className="services" id="services">
       <div className="heading">
@@ -14,25 +41,25 @@ const Services = () => {
         <h3>This is what I do.</h3>
       </div>
       <div className="content">
-        <div className="servicesBox">
+        <div className="servicesBox fade-in">
           <Link to="/airbrush">
             <img src={iwo} alt="" />
           </Link>
           <h2>Custom Airbrush</h2>
         </div>
-        <div className="servicesBox">
+        <div className="servicesBox fade-in">
           <Link to="/tattoos">
             <img src={bandana} alt="" />
           </Link>
           <h2>Tattoos</h2>
         </div>
-        <div className="servicesBox">
+        <div className="servicesBox fade-in">
           <Link to="/murals">
             <img src={afghan} alt="" />
           </Link>
           <h2>Wall Murals</h2>
         </div>
-        <div className="servicesBox">
+        <div className="servicesBox fade-in">
           <Link to="/canvas">
             <img src={ied} alt="" />
           </Link>

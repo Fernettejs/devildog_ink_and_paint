@@ -8,9 +8,9 @@ import Murals from "./Pages/Murals";
 import Tattoos from "./Pages/Tattoos";
 import Shop from "./Pages/Shop";
 
+function App() {
+  
 
-
-function App() { 
   return (
     <Router>
       <div className="App"></div>

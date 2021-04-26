@@ -34,208 +34,233 @@ import temple from "../assets/images/tattoos/temple.jpg";
 import tree from "../assets/images/tattoos/tree.jpg";
 
 const Tattoos = (props) => {
-    return (
-      <div className="tattoos" id="tattoos">
-        <Navigation />
-        <Sidebar />
-        <div className="header" id="myHeader">
-          <h1>Tattoos</h1>
-        </div>
-        <div className="container">
-          {/* <Photo photo={tree} alt={"tree"} /> */}
-          <div className="gallery-container h-2">
-            <div className="gallery-item">
-              <div className="image">
-                <img src={bandana} alt="bandana" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container w-2">
-            <div className="gallery-item">
-              <div className="image">
-                <img src={birds} alt="birds" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <div className="image">
-                <img src={born_to_kill} alt="born to kill" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <div className="image">
-                <img src={dead} alt="dead" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <div className="image">
-                <img src={deer} alt="deer" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <div className="image">
-                <img src={dont_tread} alt="dont tread on me" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <div className="image">
-                <img src={eagle} alt="eagle" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container h-2">
-            <div className="gallery-item">
-              <div className="image">
-                <img src={flag_in_arm} alt="flag_in_arm" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <div className="image">
-                <img src={gears} alt="gears" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <div className="image">
-                <img src={grapes} alt="grapes" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <div className="image">
-                <img loading="lazy" src={graves} alt="graves" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <div className="image">
-                <img loading="lazy" src={gunners} alt="gunners" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container w-2">
-            <div className="gallery-item">
-              <div className="image">
-                <img loading="lazy" src={inside_arm} alt="inside_arm" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <div className="image">
-                <img loading="lazy" src={iwo_jima} alt="iwo_jima" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <div className="image">
-                <img loading="lazy" src={jiu_jitsu} alt="jiu_jitsu" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <div className="image">
-                <img loading="lazy" src={knight} alt="knight" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <div className="image">
-                <img loading="lazy" src={lipstick} alt="lipstick" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container w-2">
-            <div className="gallery-item">
-              <div className="image">
-                <img loading="lazy" src={m4} alt="m4" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <div className="image">
-                <img loading="lazy" src={map} alt="map" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <div className="image">
-                <img loading="lazy" src={mask} alt="mask" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <div className="image">
-                <img loading="lazy" src={mom} alt="mom" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container h-2">
-            <div className="gallery-item">
-              <div className="image">
-                <img loading="lazy" src={rifle} alt="rifle" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container h-2">
-            <div className="gallery-item">
-              <div className="image">
-                <img loading="lazy" src={samurai} alt="samurai" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <div className="image">
-                <img loading="lazy" src={scroll} alt="scroll" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <div className="image">
-                <img loading="lazy" src={star} alt="star" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <div className="image">
-                <img loading="lazy" src={temple} alt="canoe" />
-              </div>
-            </div>
-          </div>
-          <div className="gallery-container">
-            <div className="gallery-item">
-              <div className="image">
-                <img loading="lazy" src={tree} alt="canoe" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <Footer />
+  const faders = document.querySelectorAll(".fade-in");
+  const appearOptions = {
+    threshold: 1,
+    rootMargin: "0px 0px -100px 0px"
+  };
+
+  const appearOnScroll = new IntersectionObserver(function (
+    entries,
+    appearOnScroll
+  ) {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) {
+        return;
+      } else {
+        entry.target.classList.add("appear");
+        appearOnScroll.unobserve(entry.target)
+      }
+    })
+  },
+  appearOptions);
+
+  faders.forEach(fader => {
+    appearOnScroll.observe(fader);
+  })
+
+  return (
+    <div className="tattoos" id="tattoos">
+      <Navigation />
+      <Sidebar />
+      <div className="header" id="myHeader">
+        <h1>Tattoos</h1>
       </div>
-    );
+      <div className="container">
+        {/* <Photo photo={tree} alt={"tree"} /> */}
+        <div className="gallery-container h-2">
+          <div className="gallery-item">
+            <div className="image">
+              <img src={bandana} alt="bandana" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container w-2">
+          <div className="gallery-item">
+            <div className="image">
+              <img src={birds} alt="birds" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container">
+          <div className="gallery-item">
+            <div className="image">
+              <img src={born_to_kill} alt="born to kill" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container">
+          <div className="gallery-item">
+            <div className="image">
+              <img src={dead} alt="dead" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container">
+          <div className="gallery-item">
+            <div className="image">
+              <img src={deer} alt="deer" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container">
+          <div className="gallery-item">
+            <div className="image">
+              <img src={dont_tread} alt="dont tread on me" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container">
+          <div className="gallery-item">
+            <div className="image">
+              <img src={eagle} alt="eagle" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container h-2">
+          <div className="gallery-item">
+            <div className="image">
+              <img src={flag_in_arm} alt="flag_in_arm" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container">
+          <div className="gallery-item">
+            <div className="image">
+              <img src={gears} alt="gears" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container">
+          <div className="gallery-item">
+            <div className="image">
+              <img src={grapes} alt="grapes" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container">
+          <div className="gallery-item">
+            <div className="image fade-in">
+              <img loading="lazy" src={graves} alt="graves" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container">
+          <div className="gallery-item">
+            <div className="image fade-in">
+              <img loading="lazy" src={gunners} alt="gunners" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container w-2">
+          <div className="gallery-item">
+            <div className="image fade-in">
+              <img loading="lazy" src={inside_arm} alt="inside_arm" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container">
+          <div className="gallery-item">
+            <div className="image fade-in">
+              <img loading="lazy" src={iwo_jima} alt="iwo_jima" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container">
+          <div className="gallery-item">
+            <div className="image fade-in">
+              <img loading="lazy" src={jiu_jitsu} alt="jiu_jitsu" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container">
+          <div className="gallery-item">
+            <div className="image fade-in">
+              <img loading="lazy" src={knight} alt="knight" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container">
+          <div className="gallery-item">
+            <div className="image fade-in">
+              <img loading="lazy" src={lipstick} alt="lipstick" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container w-2">
+          <div className="gallery-item">
+            <div className="image fade-in">
+              <img loading="lazy" src={m4} alt="m4" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container">
+          <div className="gallery-item">
+            <div className="image fade-in">
+              <img loading="lazy" src={map} alt="map" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container">
+          <div className="gallery-item">
+            <div className="image">
+              <img loading="lazy" src={mask} alt="mask" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container">
+          <div className="gallery-item">
+            <div className="image">
+              <img loading="lazy" src={mom} alt="mom" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container h-2">
+          <div className="gallery-item">
+            <div className="image">
+              <img loading="lazy" src={rifle} alt="rifle" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container h-2">
+          <div className="gallery-item">
+            <div className="image">
+              <img loading="lazy" src={samurai} alt="samurai" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container">
+          <div className="gallery-item">
+            <div className="image">
+              <img loading="lazy" src={scroll} alt="scroll" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container">
+          <div className="gallery-item">
+            <div className="image">
+              <img loading="lazy" src={star} alt="star" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container">
+          <div className="gallery-item">
+            <div className="image">
+              <img loading="lazy" src={temple} alt="canoe" />
+            </div>
+          </div>
+        </div>
+        <div className="gallery-container">
+          <div className="gallery-item">
+            <div className="image">
+              <img loading="lazy" src={tree} alt="canoe" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <Footer />
+    </div>
+  );
 };
 
 export default Tattoos;
