@@ -5,9 +5,9 @@ import Photo from "../Components/Photo";
 import Footer from "../Components/Footer";
 
 
-import afghan from "../assets/images/murals/afghan.png";
-import nam from "../assets/images/murals/nam.png";
-import ww1 from "../assets/images/murals/ww1.png";
+import afghan from "../assets/images/murals/afghan.jpg";
+import nam from "../assets/images/murals/nam.jpg";
+import ww1 from "../assets/images/murals/ww1.jpg";
 
 const Murals = () => {
   return (

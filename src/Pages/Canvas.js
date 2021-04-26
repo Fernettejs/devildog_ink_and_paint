@@ -4,7 +4,7 @@ import Sidebar from "../Components/Sidebar";
 import Photo from "../Components/Photo";
 import Footer from "../Components/Footer";
 
-import ied from "../assets/images/canvas/ied.png";
+import ied from "../assets/images/canvas/ied.jpg";
 
 const Canvas = () => {
   return (

@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import bandana from "../assets/images/tattoos/bandana.png";
-import afghan from "../assets/images/murals/afghan.png";
-import iwo from "../assets/images/airbrush/iwo-jima-bike.png";
-import ied from "../assets/images/canvas/ied.png";
+import bandana from "../assets/images/tattoos/bandana.jpg";
+import afghan from "../assets/images/murals/afghan.jpg";
+import iwo from "../assets/images/airbrush/iwo-jima-bike.jpg";
+import ied from "../assets/images/canvas/ied.jpg";
 
 
 const Services = () => {

@@ -4,9 +4,9 @@ import Sidebar from "../Components/Sidebar";
 import { Link } from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
 
-import artist from "../assets/images/the-artist.png";
-import ig from "../assets/images/ig-icon.png";
-import youtube from "../assets/images/youtube-icon.png";
+import artist from "../assets/images/the-artist.jpg";
+import ig from "../assets/images/ig-icon.jpg";
+import youtube from "../assets/images/youtube-icon.jpg";
 
 const About = () => {
   return (

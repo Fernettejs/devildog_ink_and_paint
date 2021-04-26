@@ -3,8 +3,8 @@ import Navigation from "../Components/Navigation";
 import Sidebar from "../Components/Sidebar";
 import Footer from "../Components/Footer";
 
-import shirt from "../assets/images/shop/white-t-shirt.png";
-import hat from "../assets/images/shop/hat.png";
+import shirt from "../assets/images/shop/white-t-shirt.jpg";
+import hat from "../assets/images/shop/hat.jpg";
 
 
 const Shop = () => {
