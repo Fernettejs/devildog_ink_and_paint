@@ -4,7 +4,7 @@ import * as FaIcons from "react-icons/fa";
 const Social = () => {
     return (
         <div className="social" id="social">
-          <div className="content">
+          <div className="social-content">
             <div className="social-box">
               <a
                 className="social-icon"

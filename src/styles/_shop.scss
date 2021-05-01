@@ -2,30 +2,6 @@
   width: 100vw;
   overflow: hidden;
 
-  .box {
-    background-color: rgba(255, 255, 255, 0.3);
-    border-radius: 5px;
-    font-family: sans-serif;
-    text-align: center;
-    line-height: 1;
-   -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
-    height: 120%;
-    width: 100%;
-    padding: 20px 40px;
-    position: absolute;
-    align-items: center;
-    justify-content: center;
-    margin-top: -120px;
-  }
-  .container {
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-  }
-
   .header {
     text-align: center;
   }
@@ -47,7 +23,32 @@
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
+    position: relative;
   }
+  .container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+
+  }
+  .box {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    display: flex;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1;
+   -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(20px);
+    height: 70vh;
+    width: 100vw;
+    padding: 20px 40px;
+    align-items: center;
+    justify-content: center;
+
+  }
+
   .product-box {
     background-color: rgba(0, 0, 0, 0);
     text-align: center;
