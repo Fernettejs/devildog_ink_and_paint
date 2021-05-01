@@ -1,4 +1,5 @@
 import React from "react";
+import Social from "../Components/Social";
 
 const Footer = () => {
   return (
@@ -6,6 +7,7 @@ const Footer = () => {
       <div className="copyright">
         <p>Copyright @2021 DevilDog Ink And Paint. All Rights Reserved.</p>
       </div>
+      <Social />
     </section>
   );
 };

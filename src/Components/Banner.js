@@ -1,4 +1,6 @@
 import React from "react";
+import Social from "../Components/Social";
+
 // import { TimelineLite } from 'gsap'
 
 
@@ -18,6 +20,7 @@ const Banner = () => {
           </a>
         </button>
       </div>
+      <Social />
     </section>
   );
 };

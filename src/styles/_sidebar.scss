@@ -3,13 +3,31 @@
   background-size: cover;
   height: 80px;
   display: flex;
-  justify-content: flex-start;
   align-items: center;
   display: none;
 }
 @media (max-width: 991px) {
   .sidebar {
     display: flex;
+  }
+  .sidebar-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.sidebar #logo {
+  // width: 100px;
+  left: 50%;
+    top: 40px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 600px) {
+  .sidebar #logo {
+    transform: translateY(-50%);
   }
 }
 

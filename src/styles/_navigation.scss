@@ -12,9 +12,7 @@
   align-items: center;
 }
 @media (max-width: 991px) {
-  .topnav {
-    display: none;
-  }
+
 }
 .logo {
   position: absolute;
@@ -172,6 +170,10 @@ ul.sidebar-panel-nav > li > a {
 /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
 
 @media (max-width: 991px) {
+  .topnav {
+    display: none;
+  }
+
   .topnav-centered {
     float: none;
     position: absolute;
@@ -242,6 +244,7 @@ ul.sidebar-panel-nav > li > a {
   header.sticky .toggle {
     filter: invert(0);
   }
+
 }
 /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
 @media screen and (max-width: 600px) {

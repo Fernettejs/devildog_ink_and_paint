@@ -1,0 +1,20 @@
+form {
+  background: grey;
+  border-radius: 10px;
+  position: relative;
+  padding: 20px;
+  .field {
+    padding: 10px;
+  }
+  input {
+	height: 32px;
+	width: 300px;
+    border-radius: 4px;
+  }
+  .half {
+    position: relative;
+  }
+  ::placeholder {
+	  color: var(--primary-color);
+  }
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import Navigation from "../Components/Navigation";
 import Sidebar from "../Components/Sidebar";
-import * as FaIcons from "react-icons/fa";
+import Social from "../Components/Social";
 
 import artist from "../assets/images/the-artist.jpg";
 
@@ -43,40 +43,7 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className="social" id="social">
-          <div className="content">
-            <div className="social-box">
-              <a
-                className="social-icon"
-                href="https://www.youtube.com/channel/UCsp7n4jSu-uMAbMqL-QHJ9A"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaIcons.FaYoutubeSquare />
-              </a>
-            </div>
-            <div className="social-box">
-              <a
-                className="social-icon"
-                href="https://www.instagram.com/devildog_inkandpaintllc/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaIcons.FaInstagramSquare />
-              </a>
-            </div>
-            <div className="social-box">
-              <a
-                className="social-icon"
-                href="https://www.facebook.com/DevildogInkandPaint"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FaIcons.FaFacebookSquare />
-              </a>
-            </div>
-          </div>
-        </div>
+        <Social />
       </section>
     </div>
   );

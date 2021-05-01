@@ -1,7 +1,6 @@
 import React from "react";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
-import * as RiIcons from "react-icons/ri";
 import airbrush from "../assets/icons/iconfinder_Airbrush_1021008.png";
 import tattoo from "../assets/icons/tattoo-gun-icon.png";
 

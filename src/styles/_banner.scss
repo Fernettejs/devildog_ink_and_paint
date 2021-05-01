@@ -42,9 +42,27 @@
   padding: 20px 50px;
 }
 
+.banner .social .content {
+  justify-content: center;
+}
+.banner .social-box {
+  font-size: inherit;
+  height: 30px;
+  width: 30px;
+  margin: 30px;
+}
+.banner .social-box:hover {
+  // height: 30px;
+  // width: 30px;
+}
+.banner .social-icon {
+  font-size: 30px;
+}
+
 @media (max-width: 991px) {
   .banner {
     background-size: cover;
     background-attachment: local;
-    background-position: bottom;  }
+    background-position: bottom;
+  }
 }

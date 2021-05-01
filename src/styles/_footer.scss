@@ -2,10 +2,11 @@
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../assets/images/American-flag-2a1.jpg);
   background-size: cover;
-  height: 20px;
+  height: 220px;
   display: flex;
   justify-content: center;
   align-items: center;
+  display: block;
 }
 
 .copyright {
@@ -15,7 +16,17 @@
   padding: 10px;
   height: 40px;
 }
-
+.footer .social .content {
+  justify-content: center;
+}
+.footer .social-box {
+  font-size: inherit;
+  height: 30px;
+  width: 30px;
+}
+.footer .social-icon {
+  font-size: 30px;
+}
 @media (max-width: 991px) {
   p {
     font-size: 12px;
