@@ -43,7 +43,7 @@ const Navigation = () => {
           <Link id="shop-link" to="/shop">
             Shop
           </Link>
-          <a className="snipcart-checkout topnav-right mobile-cart">
+          <a href="/#" className="snipcart-checkout topnav-right mobile-cart">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="28"
