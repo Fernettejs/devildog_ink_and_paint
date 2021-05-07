@@ -1,16 +1,24 @@
+.contact {
+  background: var(--blue-color);
+  min-height: 40vw;
 .content {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.contact {
-  background: var(--blue-color);
-  min-height: 40vw;
+.field {
+  margin: 20px;
+}
+#message {
+  height: 100px;
+  width: 75%;
+}
+#myfile {
+  color: white;
 }
 .box {
   margin: 30px 0;
   display: flex;
-  
 }
 .formBox {
   min-width: 60%;
@@ -26,18 +34,22 @@
   font-weight: 500;
   margin-bottom: 10px;
 }
-.formBox form input,
-.formBox form textarea {
-  margin-bottom: 20px;
-  padding: 15px;
-  font-size: 26px;
-  background: transparent;
-  border: none;
-  outline: none;
-  background: rgb(214, 214, 214);
-  color: white;
-  resize: none;
+input {
+  width: 75%;
+  height: 36px;
 }
+// .formBox form input,
+// .formBox form textarea {
+//   margin-bottom: 20px;
+//   padding: 15px;
+//   font-size: 26px;
+//   background: transparent;
+//   border: none;
+//   outline: none;
+//   background: rgb(214, 214, 214);
+//   color: white;
+//   resize: none;
+// }
 .formBox form textarea {
   min-height: 200px;
 }
@@ -102,3 +114,4 @@ p {
 }
 
 
+}

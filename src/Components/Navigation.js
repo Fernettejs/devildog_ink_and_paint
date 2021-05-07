@@ -19,7 +19,7 @@ const Navigation = () => {
           </li>
           <div className="subnav">
             <a href="#services" id="navlink">
-              Services
+              Portfolio
               <RiIcons.RiArrowDownSFill />
             </a>
             <div className="subnav-content">

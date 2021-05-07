@@ -37,9 +37,9 @@ const Services = () => {
   return (
     <section className="services" id="services">
       <div className="heading">
-        <h2>Services</h2>
-        <h3>This is what I do.</h3>
+        <h2>Portfolio</h2>
       </div>
+
       <div className="content">
         <div className="servicesBox fade-in">
           <Link to="/airbrush">

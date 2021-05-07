@@ -8,6 +8,8 @@ import Murals from "./Pages/Murals";
 import Tattoos from "./Pages/Tattoos";
 import Shop from "./Pages/Shop";
 
+import ThunderRoads from "./Pages/ThunderRoads";
+
 function App() {
   
 
@@ -21,6 +23,8 @@ function App() {
       <Route path="/murals" exact component={Murals} />
       <Route path="/tattoos" exact component={Tattoos} />
       <Route path="/shop" exact component={Shop} />
+
+      <Route path="/thunder-roads" exact component={ThunderRoads} />
     </Router>
   );
 }

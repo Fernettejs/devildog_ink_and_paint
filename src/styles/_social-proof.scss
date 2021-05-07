@@ -1,0 +1,32 @@
+.social-proof{
+    background: rgba(18, 27, 75, 1);
+    padding: 20px;
+    height: auto;
+    width: 100vw;
+    border: 5px solid white;
+    // position: absolute;
+    // bottom: 0;
+    // left: 0;
+  img {
+    // max-width: 100%;
+    border-radius: 30px;
+    position: relative;
+    height: 140px;
+    padding-bottom: 10px;
+  }
+  .heading {
+    outline: none !important;
+  }
+  .content {
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  h2 {
+    font-size: 22px !important;
+  }
+  
+}

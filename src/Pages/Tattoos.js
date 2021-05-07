@@ -7,7 +7,6 @@ import Footer from "../Components/Footer";
 import img1 from "../assets/images/tattoos/tattoos-two/IMG_20191114_174019.jpg"
 import img2 from "../assets/images/tattoos/tattoos-two/IMG_20191114_174023.jpg"
 import img3 from "../assets/images/tattoos/tattoos-two/IMG_20191205_221214.jpg"
-import img4 from "../assets/images/tattoos/tattoos-two/IMG_20191205_221220.jpg"
 import img5 from "../assets/images/tattoos/tattoos-two/IMG_20191210_214105.jpg"
 import img6 from "../assets/images/tattoos/tattoos-two/IMG_20200114_181403.jpg"
 import img7 from "../assets/images/tattoos/tattoos-two/KIMG0169.jpg"
@@ -110,9 +109,6 @@ const Tattoos = () => {
     },
     {
       image: img3,
-    },
-    {
-      image: img4,
     },
     {
       image: img5,

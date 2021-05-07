@@ -4,6 +4,7 @@
 @import "_navigation.scss";
 @import "_banner.scss";
 @import "_social.scss";
+@import "_social-proof.scss";
 @import "_sidebar.scss";
 @import "_about.scss";
 @import "_service-page";
@@ -29,7 +30,7 @@
   --gray-color: #cecece;
 }
 section{
-  padding: 100px;
+  padding: 40px;
 }
 @media (max-width: 600px) {
   section {
