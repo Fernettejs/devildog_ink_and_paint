@@ -13,7 +13,7 @@ export const ContactForm = () => {
         </div>
         <div className="field">
           <textarea
-            name="comments"
+            name="message"
             id="message"
             cols="60"
             rows="10"
