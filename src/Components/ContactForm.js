@@ -2,7 +2,7 @@ import React from 'react'
 
 export const ContactForm = () => {
   return (
-    <form method="POST" data-netlify="true">
+    <form name="contact" method="POST" data-netlify="true" onSubmit="submit">
       <div className="fields">
         <div className="field half">
           <input type="text" name="name" placeholder="Name" />
