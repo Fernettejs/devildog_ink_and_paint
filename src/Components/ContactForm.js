@@ -32,9 +32,7 @@ export const ContactForm = () => {
         </div>
       </div>
       <ul class="actions">
-        <li>
           <button type="submit" value="Send Message" class="button">Send</button>
-        </li>
       </ul>
     </form>
   )

@@ -10,7 +10,7 @@
   margin: 20px;
 }
 .button {
-  padding: 6px 16px;
+  padding: 6px 86px;
 }
 #message {
   height: 100px;
@@ -36,6 +36,7 @@
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 10px;
+  display: flex;
 }
 input {
   width: 75%;
@@ -73,6 +74,8 @@ input {
 }
 .contactInfoBox {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 .contactInfoBox .box {
   position: relative;
@@ -96,6 +99,7 @@ input {
   margin-bottom: 0;
   text-align: left;
   color: white;
+  display: flex;
 }
 p {
   text-align: left !important;
@@ -106,8 +110,13 @@ p {
   color: white;
   font-size: 32px;
   text-shadow: 2px 2px 2px #000;
+  display: flex;
+  padding: 0 10px;
 }
 
+.text {
+  display: flex;
+}
 @media (max-width: 991px) {
   .text a {
     font-size: 18px;
