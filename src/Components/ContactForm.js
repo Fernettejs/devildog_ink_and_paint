@@ -2,8 +2,8 @@ import React from 'react'
 
 export const ContactForm = () => {
   return (
-    <form name="contact" method="POST" data-netlify="true" onSubmit="submit">
-      <input type="hidden" name="form-name" value="contact"/>
+    <form name="contact v1" method="POST" data-netlify="true" onSubmit="submit">
+      <input type="hidden" name="form-name" value="contact v1"/>
       <div className="fields">
         <div className="field half">
           <input type="text" name="name" placeholder="Name" />
@@ -13,7 +13,7 @@ export const ContactForm = () => {
         </div>
         <div className="field">
           <textarea
-            name="message"
+            name="comments"
             id="message"
             cols="60"
             rows="10"
@@ -36,7 +36,7 @@ export const ContactForm = () => {
       </div>
       <ul class="actions">
         <li>
-          <input type="submit" value="Send Message" class="button primary" />
+          <button type="submit" value="Send Message" class="button">Send</button>
         </li>
       </ul>
     </form>
