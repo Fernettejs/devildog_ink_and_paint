@@ -1,9 +1,8 @@
 .social-proof{
     background: rgba(18, 27, 75, 1);
-    padding: 20px;
+    padding: 6px;
     height: auto;
     width: 100vw;
-    border: 5px solid white;
     // position: absolute;
     // bottom: 0;
     // left: 0;
@@ -13,9 +12,6 @@
     position: relative;
     height: 140px;
     padding-bottom: 10px;
-  }
-  .heading {
-    outline: none !important;
   }
   .content {
     padding-top: 20px;
@@ -27,6 +23,15 @@
   }
   h2 {
     font-size: 22px !important;
+  }
+
+  @media (max-width: 991px) {
+    img {
+      border-radius: 30px;
+      position: relative;
+      height: 80px;
+      padding-bottom: 10px;
+    }
   }
   
 }

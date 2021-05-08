@@ -1,6 +1,6 @@
 .about {
   background: var(--secondary-color);
-
+}
 .about .img {
   border: 3px solid white;
   border-radius: 5px;
@@ -16,7 +16,6 @@
   margin-bottom: 30px;
   color: #fff;
   text-decoration: none;
-  border: 3px solid white;
   border-radius: 5px;
 }
 .heading h2 {
@@ -33,7 +32,7 @@
   background: var(--blue-color);
   border: 3px solid white;
   border-radius: 5px;
-  text-align: center;
+    text-align: center;
 
 }
 .contentBox h3 {
@@ -85,5 +84,4 @@ img {
   section {
     padding: 100px 20px;
   }
-}
 }
