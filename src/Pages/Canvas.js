@@ -101,7 +101,7 @@ const Canvas = () => {
             <div className="gallery-item">
               {images.map((image, index) => (
                 <div className="image" key={index}>
-                  <img src={image.image} alt={image.image} />
+                  <img src={image.image} alt={image.image}/>
                 </div>))}
             </div>
           </div>

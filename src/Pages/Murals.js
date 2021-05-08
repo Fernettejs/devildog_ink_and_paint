@@ -8,7 +8,6 @@ import img3 from "../assets/images/murals/FB_IMG_1583551263672.jpg"
 import img4 from "../assets/images/murals/FB_IMG_1583551279006.jpg"
 import img5 from "../assets/images/murals/ghcCKizc-min.jpg"
 import img6 from "../assets/images/murals/IMG_1764.jpg"
-import img7 from "../assets/images/murals/IMG_1765.jpg"
 import img8 from "../assets/images/murals/IMG_1766.jpg"
 import img9 from "../assets/images/murals/IMG_1767.jpg"
 import img10 from "../assets/images/murals/IMG_1772.jpg"
@@ -34,81 +33,125 @@ const Murals = () => {
   const [images] = useState([
     {
       image: img1,
+      className: "image w-3"
     },
     {
       image: img3,
+      className: "image w-2"
     },
     {
       image: img4,
+      className: "image w-2"
     },
     {
       image: img5,
+      className: "image w-2"
+
     },
     {
       image: img6,
-    },
-    {
-      image: img7,
+      className: "image"
+
     },
     {
       image: img8,
+      className: "image"
+
     },
     {
       image: img9,
+      className: "image h-2 w-2"
+
     },
     {
       image: img10,
+      className: "image"
+
     },
     {
       image: img11,
+      className: "image"
+
     },
     {
       image: img12,
+      className: "image"
+
     },
     {
       image: img13,
+      className: "image"
+
     },
     {
       image: img14,
+      className: "image"
+
     },
     {
       image: img15,
+      className: "image w-3"
+
     },
     {
       image: img16,
+      className: "image w-2"
+
     },
     {
       image: img17,
+      className: "image h-1 w-2"
+
     },
     {
       image: img18,
+      className: "image w-3"
+
     },
     {
       image: img19,
+      className: "image"
+
     },
     {
       image: img20,
+      className: "image"
+
     },
     {
       image: img21,
-    },
-    {
-      image: img22,
+      className: "image"
+
     },
     {
       image: img23,
+      className: "image w-1"
     },
     {
       image: img24,
+      className: "image w-1"
+
     },
     {
+      image: img22,
+      className: "image w-2"
+    },
+
+
+    {
       image: img25,
+      className: "image w-3"
+
     },
     {
       image: img26,
+      className: "image w-2"
     },
+
     {
       image: img27,
+      className: "image w-3"
+
     }
   ]);
   return (
@@ -123,7 +166,7 @@ const Murals = () => {
           <div className="gallery-container">
             <div className="gallery-item">
               {images.map((image, index) => (
-                <div className="image" key={index}>
+                <div className={image.className} key={index}>
                   <img src={image.image} alt={image.image} />
                 </div>))}
             </div>
